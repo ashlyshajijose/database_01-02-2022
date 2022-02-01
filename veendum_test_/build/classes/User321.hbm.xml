@@ -1,0 +1,29 @@
+<hibernate-mapping>
+<class name="test123.User321" table="hospt_1">
+<id name="id" type="int">
+<column name="ID">
+
+</column>
+<generator class="increment">
+</generator>
+</id>
+<property name="firstname" type="java.lang.String">
+<coloumn name="FIRSTNAME">
+</coloumn>
+</property>
+
+
+<property name="email" type="java.lang.String">
+<coloumn name="EMAIL">
+</coloumn>
+</property>
+<property name="mobileno" type="java.lang.int">
+<coloumn name="MOBILENO">
+</coloumn>
+</property>
+
+
+
+
+</class>
+</hibernate-mapping>
